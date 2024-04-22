@@ -67,6 +67,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Mustafa Boorenie - [your-email@example.com](mailto:your-email@example.com)
+Mustafa Boorenie - [your-email@example.com](mailto:mustafa@bdqholdings.com)
 
 Project Link: [https://github.com/mustafa-boorenie/expressedAI](https://github.com/mustafa-boorenie/expressedAI)
