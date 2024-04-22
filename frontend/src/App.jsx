@@ -10,7 +10,7 @@ function App() {
 
   async function handleClick(e) {
     e.preventDefault();
-    // use axios
+
     try {
       const data = await axios.post(`http://localhost:3000/${input}`);
       setAnswer(data.data);
@@ -29,8 +29,8 @@ function App() {
         </a>
       </div>
       <h1>Test my assistant below!</h1>
-      <div className="card">
-        <input type='text' defaultValue="Ask me anything." onChange={(e) => setInput(e.target.value)}/>
+      <div>
+        <input className='text-box' type='text' placeholder="Ask me anything." onChange={(e) => setInput(e.target.value)}/>
       </div>
       <div>
         <button className='btn' onClick={(e) => handleClick(e)}> Ask.</button>
